@@ -1,0 +1,76 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: #282828;
+    background: linear-gradient(-45deg ,#EE7752,#E73C7E,#23A6D5,#23D5AB);
+    background-size: 400% 400%;
+    animation: Gradient 15s ease infinite;
+} 
+@keyframes Gradient{
+
+    0%{
+        background-position: 0% 50%
+    }
+    50%{
+        background-position: 100% 150%
+    }
+    100%{
+        background-position: 0% 50%
+    }
+}
+h1{
+    font-weight: lighter;
+    font-size: 80px ;
+    color: #fff;
+    text-align:center;
+    padding-top: 50px;
+    margin-bottom: 0px;
+}
+p{
+    color:#fff;
+    text-align:center;
+    font-family:sans-serif ;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top:0px;
+}
+.media{
+    /* position: absolute;
+    top:  40% ;
+    left:50%;
+    transform:scale(-53%,-50%); */
+    text-align: center;
+}
+li{
+    list-style:none;
+    margin: 10px 30px;
+    display:inline-block;
+    font-size:20px;
+    padding:20px 20px;
+    color:#fff;
+    border:1px #fff ;
+    border-radius: 50%;
+    transition:.5s;
+    align-items: left;
+    /* float: left; */
+}
+li:hover{
+    color:#292929;
+    border:1px solid #292929;
+    transition: .5s;
+}
+.my-img{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    background-size: 200%;
+    text-align: center;
+     /* height: 200px ; */
+    /* background-image: url(shiv/imag.jpg);   */
+}
+.my-img:hover{
+    width:250px;
+    border-radius: 50%;
+    background-size: 500%;
+    text-align: center;
+  
+}
